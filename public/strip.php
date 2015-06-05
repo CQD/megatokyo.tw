@@ -22,4 +22,5 @@ echo Templator::render('strip.twig', [
     'prev' => $prev,
     'strip' => $strip,
     'next' => $next,
+    'request_uri' => $path,
 ]);
