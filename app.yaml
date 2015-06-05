@@ -27,3 +27,6 @@ handlers:
 
 - url: /atom/
   script: public/atom.php
+
+- url: /sitemap.xml
+  script: public/sitemap.php
