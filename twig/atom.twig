@@ -1,0 +1,26 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+{% autoescape %}
+<title>大東京 Megatokyo</title>
+<subtitle>relax, we understand j00</subtitle>
+<link href="http://www.megatokyo.tw/atom" rel="self" />
+<link href="http://www.megatokyo.tw" />
+<id>tag:megatokyo.tw</id>
+<updated>{{last_date}}T00:00:00Z</updated>
+<author><name>Fred Gallagher</name></author>
+<contributor><name>CQD</name></contributor>
+
+{% for strip in strips %}
+<entry>
+	<title>[{{strip.id}}] {{strip.title}}</title>
+	<link rel="alternate" type="text/html" href="http://megatokyo.tw/strip/{{strip.id}}"/>
+	<link rel="related" type="text/html" href="http://megatokyo.com/strip/{{strip.id}}"/>
+	<id>tag:megatokyo.tw,strip-{{strip.id}}</id>
+	<updated>{{strip.date}}T00:00:00Z</updated>
+	<content type="html">[{{strip.id}}] {{strip.title}}&lt;br&gt;&lt;img src="{{strip.img}}" title="[{{strip.id}}]{{strip.title}}, {{strip.date}}" alt="[{{strip.id}}]{{strip.title}}, {{strip.date}}"&gt;&lt;div&gt;{{strip.comment}}&lt;/div&gt;</content>
+</entry>
+{% endfor %} 
+
+{% endautoescape %}
+
+</feed>
