@@ -1,5 +1,5 @@
-application: cqdtest
-version: dev
+application: megatokyo-tw-hrd
+version: prod
 runtime: php55
 api_version: 1
 threadsafe: true
