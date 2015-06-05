@@ -1,0 +1,86 @@
+{% autoescape %}
+<!DOCTYPE html>
+<html>
+<head> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta name="description" content="大東京 MegaTokyo 的非官方中文翻譯" /> 
+<meta name="keywords" content="megatokyo, 大東京, 中文翻譯, 宅, 線上漫畫" />
+
+<title>{% if title %}{{title}} - {% endif %}Megatokyo 大東京<%=title %></title> 
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
+<link type="text/css" rel="stylesheet" href="/css/main.css"> 
+<link rel='alternate' href='/atom/' type='application/atom+xml' title="大東京 Megatokyo - Atom" />
+{% block head %}{% endblock %}
+
+<!-- Google +1 -->
+<script type="text/javascript">
+  window.___gcfg = {lang: 'zh-TW'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-368263-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+
+<body>
+<!-- Facebook SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="content"> 
+<div id="header"> 
+<a href="/"><h1>大東京</h1> Megatokyo</a>
+
+<!-- Google +1 -->
+<div class="g-plusone" data-size="Medium" data-annotation="bubble" data-href="http://www.megatokyo.tw"></div>
+
+<!-- Facebook Like -->
+<div class="fb-like" data-href="http://www.megatokyo.tw" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+</div> 
+
+<div id="main">
+
+{% block content %}{% endblock %}
+
+</div><!--main--> 
+ 
+</div><!--content--> 
+
+<div id="feed"> 
+<a href="/atom/">訂閱</a>
+</div>
+
+<div id="footer"> 
+<p>本站以翻譯推廣 <a href="http://megatokyo.com">megatokyo</a> 為目的，為愛好者自行架設之網站，並非原作者 Fred Gallagher 授權之官方網站。
+<p>「megatokyo」 是 <a href="http://www.fredart.com/">fredart studios llc.</a> 的註冊商標。
+</div><!--footer--> 
+</body>  
+</html>
+{% endautoescape %}

@@ -1,6 +1,6 @@
 application: cqdtest
 version: dev
-runtime: php
+runtime: php55
 api_version: 1
 threadsafe: true
 
@@ -19,5 +19,8 @@ handlers:
 
 ##########################################
 
-- url: /.*
-  script: router.php
+- url: /
+  script: public/strip.php
+
+- url: /strip/.*
+  script: public/strip.php
