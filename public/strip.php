@@ -18,9 +18,16 @@ if (!$strip) {
 $prev = Strip::get($id - 1);
 $next = Strip::get($id + 1);
 
+if ('/' === $path) {
+    $title = null;
+} else {
+    $title = $strip['title'];
+}
+
 echo Templator::render('strip.twig', [
     'prev' => $prev,
     'strip' => $strip,
     'next' => $next,
     'request_uri' => $path,
+    'title' => $title,
 ]);
