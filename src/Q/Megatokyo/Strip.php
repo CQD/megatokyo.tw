@@ -14,6 +14,7 @@ class Strip
      * Seraphim: 賽菈弗
      * Junpei: 淳平
      * Sonoda Yuki: 園田 由紀
+     * Tsubasa: 小翼..是個男人啊...
      */
 
     static $all = [
