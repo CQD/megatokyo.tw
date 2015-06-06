@@ -4,6 +4,18 @@ namespace Q\Megatokyo;
 
 class Strip
 {
+    /*
+     * 名詞翻譯表
+     * Piro: 畢羅
+     * Largo: 拉爾戈
+     * Hayasaka Erika: 早坂 えりか（早坂 繪理香）
+     * Nanasawa Kimiko: 七澤 希美子
+     * Tohya Miho: 凍耶 美穂
+     * Seraphim: 賽菈弗
+     * Junpei: 淳平
+     * Sonoda Yuki: 園田 由紀
+     */
+
     static $all = [
         //1
         ["2000-08-14", Chapter::C0, "惡夢開始","<p>Largo 的 T-Shirt 是絕冬城之夜+無盡的任務，Piro則是 Konami"],
