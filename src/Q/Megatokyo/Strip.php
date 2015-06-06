@@ -108,7 +108,7 @@ class Strip
         ["2001-01-31", Chapter::C0, "恍神之鎚", "<p>B4K4 = BAKA = 日文的「笨蛋」。<p>最後拉爾戈跟畢羅說的是「You are so <a href='https://www.google.com.tw/search?q=fsck'>fscking</a> dead」<p>好久沒玩雷神之錘了..."],
         ["2001-02-02", Chapter::C0, "Mr. Piro-san", "<p><a href='http://tinami.com'>tinami.com</a> 是個繪圖發佈網站。然後由紀你哪來「貓咪喵喵」這種神奇的 e-mail 地址..."],
         ["2001-02-06", Chapter::GUEST, "客座繪：little gamers","<p>這次是 <a href='http://www.little-gamers.com/'>Little Gamers</a> 的協力客座繪。"],
-//      ["2001-01-15", Chapter::C0, "存檔點","<p>背景人物是 <a href='http://zh.wikipedia.org/zh-tw/Kanon'>Kanon</a> 的月宮亞由，照例的想吃鯛魚燒然後摔倒..."],
+        ["2001-02-07", Chapter::C0, "差一點點","<p><a href='https://en.wikipedia.org/wiki/Temptation_Island_%28TV_series%29'>Temptation Island</a> 是個 2001 年的實境節目，內容大致上是「把一群情侶兩兩分開放到風光明媚的而且都是異性的島生活，強迫他們跟其他異性交往」<p>我覺得規劃這種節目的人還比較沒道德就是了..."],
 //      ["2001-01-17", Chapter::C0, "麥克風開著嗎？"],
 //      ["2001-01-19", Chapter::OSE, "婆媽劇"],
 //      ["2001-01-22", Chapter::C0, "裸體神技","<p>脫衣避靜電的點子來自於<a href='http://zh.wikipedia.org/zh-tw/%E7%8E%B2%E9%9F%B3'>玲音</a>，不過玲音本人沒脫那麼誇張"],
