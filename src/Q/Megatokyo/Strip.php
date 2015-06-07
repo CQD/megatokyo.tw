@@ -80,7 +80,7 @@ class Strip
     
         //51
         ["2000-12-08", Chapter::NNM, "大東京的為什麼：如果說…"],
-        ["2000-12-11", Chapter::C0, "幫我帶啤酒回來","<p>Napple Tale是2000年發行在 Dream Cast 上的遊戲，音樂擔當是菅野洋子，女主角與主題曲演唱是坂本真綾。<p>Candyland 是一款針對學齡前兒童的桌上遊戲。"],
+        ["2000-12-11", Chapter::C0, "幫我帶啤酒回來","<p>Napple Tale是2000年發行在 Dream Cast 上的遊戲，音樂擔當是菅野洋子，女主角與主題曲演唱是坂本真綾。<p><iframe width='420' height='315' src='https://www.youtube.com/embed/i5lrAwBMeWc' frameborder='0' allowfullscreen></iframe> <p>Candyland 是一款針對學齡前兒童的桌上遊戲。"],
         ["2000-12-13", Chapter::C0, "噗啾～噗啾～","<p>第二格的布娃娃外星人出自迷糊女戰士（Excel Saga），第三格則是家有阿福（Alf）"],
         ["2000-12-15", Chapter::C0, "這可不能給老爸看到"],
         ["2000-12-18", Chapter::C0, "良心建議"],
