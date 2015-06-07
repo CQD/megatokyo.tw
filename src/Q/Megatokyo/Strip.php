@@ -113,6 +113,9 @@ class Strip
         ["2001-01-17", Chapter::GUEST, "客座繪：Real Life Comics", "<p>這次是 <a href='http://www.reallifecomics.com/'>Real Life Comics</a> 的協力客座繪。"],
         ["2001-02-12", Chapter::C0, "Boo!"],
         ["2001-02-14", Chapter::C0, "爛包包", "不知道這個 Hitomi 是指哪一個 Hitomi..."],
+
+        // 81
+        ["2001-02-16", Chapter::OSE, "公共宣傳公告：殭屍", "<p><a href='https://www.google.com.tw/search?tbm=isch&q=raver'>Raver</a> 是講歐美的夜店掛青少年。"],
     ];
 
     public static function get($id)
